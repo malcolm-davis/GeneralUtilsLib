@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>General Utils Lib</Title>
+    <Authors>Malcolm G. Davis</Authors>
+    <Description>List of general C# helper utils for directory cleanup, method param checks and configuration file setup and validation.</Description>
+    <Copyright>mit </Copyright>
+    <PackageTags>utils,method,directory,configuration</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.EventLog" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
